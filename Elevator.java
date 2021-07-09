@@ -1,34 +1,34 @@
 
-public class Elevator extends Room {
+public class Elevator extends Room
+{
 	private int floor;
-	
-	public Elevator(int area) {
+
+	public Elevator(int area)
+	{
 		super(area);
 		floor = 1;
 	}
-	
-	public int getFloor() {
+
+	public int getFloor()
+	{
 		return floor;
 	}
-	
-	public void up(int floors) {
+
+	public void up(int floors)
+	{
 		floor += floors;
 	}
-	
-	public void down(int floors) {
-		if (floor > 1) {
-			if (floor - floors <= 1) {
-				floor = 1;
-			}
-			else {
-				floor -= floors;
-			}
-		}
+
+	public void down(int floors)
+	{
+		this.floor--;
 	}
+
 	@Override
-	public String toString() {
-		return "Elevator's area in square feet:" + getSquareFeet() + 
-				"\nElevator's capacity: " + getCapacity() + 
-				"\nEvevator's current floor: " + getFloor();
+	public String toString()
+	{
+		return "Elevator's area in square feet:" + getSquareFeet()
+				+ "\nElevator's capacity: " + getCapacity()
+				+ "\nEvevator's current floor: " + getFloor();
 	}
 }

@@ -33,7 +33,7 @@ public class Classroom extends Room
 	@Override
 	public String toString()
 	{
-		return "Classroom's area in square feet " + getSquareFeet()
+		return "Classroom's area in square feet: " + getSquareFeet()
 				+ "\nClassroom's capacity: " + getCapacity()
 				+ "\nNumder of chairs: " + chairs;
 	}

@@ -27,7 +27,7 @@ public class Elevator extends Room
 	@Override
 	public String toString()
 	{
-		return "Elevator's area in square feet:" + getSquareFeet()
+		return "Elevator's area in square feet: " + getSquareFeet()
 				+ "\nElevator's capacity: " + getCapacity()
 				+ "\nEvevator's current floor: " + getFloor();
 	}

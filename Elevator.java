@@ -3,10 +3,10 @@ public class Elevator extends Room
 {
 	private int floor;
 
-	public Elevator(int area)
+	public Elevator(int area) // Elevator starts on the ground floor (1).
 	{
 		super(area);
-		floor = 1;
+		this.floor = 1;
 	}
 
 	public int getFloor()
@@ -16,7 +16,7 @@ public class Elevator extends Room
 
 	public void up(int floors)
 	{
-		floor += floors;
+		this.floor += floors;
 	}
 
 	public void down(int floors)

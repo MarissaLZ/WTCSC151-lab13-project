@@ -32,6 +32,7 @@ public class StringSetTester
 				"The number of strings that contain the given string are: "
 						+ stringSet2.countStrings(substring));
 
+		kybd.close();
 	}
 
 }

@@ -21,7 +21,7 @@ public class Elevator extends Room
 
 	public void down(int floors)
 	{
-		this.floor--;
+		this.floor-= floors;
 	}
 
 	@Override

@@ -1,4 +1,4 @@
-
+package lab13b;
 public class Room {
 	private int area;
 	

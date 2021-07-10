@@ -1,9 +1,13 @@
+package lab13b;
+
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
 public class Building {
+	
 	public static void main(String[] args) {
+		
 		Scanner kybd = new Scanner(System.in);
 
 		// declare an ArrayList containing Room elements

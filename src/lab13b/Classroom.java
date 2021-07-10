@@ -1,4 +1,4 @@
-
+package lab13b;
 public class Classroom extends Room
 {
 	private int chairs;

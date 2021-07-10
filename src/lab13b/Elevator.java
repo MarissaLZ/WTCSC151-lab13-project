@@ -1,4 +1,4 @@
-
+package lab13b;
 public class Elevator extends Room
 {
 	private int floor;
